@@ -7,14 +7,14 @@ Prueba de API REST con CAKEPHP 3.4.x
 Clonar el proyecto:
 
 ```bash
-git clone ...
+git clone https://github.com/joserafael/apidemocake3.git
 ```
 
 Ir a la carpeta del proyecto:
 
 
 ```bash
-git clone ...
+cd apidemocake3
 ```
 
 Instalar cakephp y las dependencias con composer:
@@ -109,9 +109,11 @@ En el header colocar:
 Authorization: Bearer unaseriededigitoslargos
 
 
-Paginar los registros:
+
 
 ```bash
+
+Paginar los registros:
 GET http://localhost:8765/contactos.json
 
 GET http://localhost:8765/paises.json
@@ -158,5 +160,5 @@ POST http://localhost:8765/users/delete/{{id}}.json
 
 
 
-En caso de duda me pueden escribir a mi correo webmaster@joserafael.com.ve
+En caso pueden escribir a mi correo webmaster@joserafael.com.ve
 
