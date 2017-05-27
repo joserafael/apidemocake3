@@ -34,12 +34,15 @@ Renombrar el archivo config/app.default.php a config/app.php configurar la base 
             'flags' => [],
             'cacheMetadata' => true,
             'log' => false,
+```
+
 
 Realizar la migración:
 
+```bash
 bin/cake migrations migrate
 
-
+```
 
 
 Iniciar el servidor:
@@ -51,7 +54,7 @@ bin/cake server
 
 El URL principal es http://localhost:8765
 
-#####Probar la API
+##  Probar la API
 
 Se recomienda usar POSTMAN 
 
