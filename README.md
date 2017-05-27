@@ -103,33 +103,55 @@ La respuesta sería algo así:
 
 
 Con el token asignado se pueden usar las tablas de contactos y paises en sus metodos respectivos.
+
 En el header colocar: 
+
 Authorization: Bearer unaseriededigitoslargos
 
 
 Paginar los registros:
+
+```bash
 GET http://localhost:8765/contactos.json
+
 GET http://localhost:8765/paises.json
+
 GET http://localhost:8765/users.json
+
 Ver un registro por ID:
+
 GET http://localhost:8765/contactos/view/{{id}}.json
+
 GET http://localhost:8765/paises/view/{{id}}.json
+
 GET http://localhost:8765/contactos/users/{{id}}.json
+
 Agregar un registro:
+
 POST GET http://localhost:8765/contactos/add.json
+
 POST GET http://localhost:8765/paises/add.json
+
 POST GET http://localhost:8765/users/add.json
 
+
 Editar un registro:
+
 POST http://localhost:8765/contactos/edit/{{id}}.json
+
 POST http://localhost:8765/paises/edit/{{id}}.json
+
 POST http://localhost:8765/users/edit/{{id}}.json
 
-Borrar un registro:
-POST http://localhost:8765/contactos/delete/{{id}}.json
-POST http://localhost:8765/paises/delete/{{id}}.json
-POST http://localhost:8765/users/delete/{{id}}.json
 
+Borrar un registro:
+
+POST http://localhost:8765/contactos/delete/{{id}}.json
+
+POST http://localhost:8765/paises/delete/{{id}}.json
+
+POST http://localhost:8765/users/delete/{{id}}.json
+```
 
 
 
