@@ -163,5 +163,5 @@ POST http://localhost:8765/users/delete/{{id}}.json
 
 
 
-En caso pueden escribir a mi correo webmaster@joserafael.com.ve
+En caso de duda me pueden escribir a mi correo webmaster@joserafael.com.ve o a mi cuenta en Twitter: @joserafael
 
