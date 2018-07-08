@@ -14,7 +14,8 @@
         "friendsofcake/search": "^3.1",
         "friendsofcake/crud-view": "^0.5.0",
         "cakedc/users": "^5.0",
-        "admad/cakephp-jwt-auth": "^2.0"
+        "admad/cakephp-jwt-auth": "^2.0",
+        "ozee31/cakephp-cors": "^1.1"
     },
     "require-dev": {
         "psy/psysh": "@stable",
