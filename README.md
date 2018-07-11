@@ -19,7 +19,7 @@ cd apidemocake3
 
 Instalar cakephp y las dependencias con composer:
 ```bash
-composer update
+composer install
 ```
 
 Renombrar el archivo config/app.default.php a config/app.php configurar la base de datos en la línea 232:
@@ -56,7 +56,7 @@ El URL principal es http://localhost:8765
 
 ##  Probar la API
 
-Se recomienda usar POSTMAN 
+Se recomienda usar POSTMAN
 
 Crear un nuevo usuario:
 
@@ -65,7 +65,7 @@ POST: http://localhost:8765/users/add.json
 
 Header: Content-Type: application/json
 
-Body: 
+Body:
 
 
 {
@@ -83,7 +83,7 @@ POST: http://localhost:8765/users/token.json
 
 Header: Content-Type: application/json
 
-Body: 
+Body:
 
 {
 "username":"usuario",
@@ -107,7 +107,7 @@ La respuesta sería algo así:
 
 Con el token asignado se pueden usar las tablas de contactos y paises en sus metodos respectivos.
 
-En el header colocar: 
+En el header colocar:
 
 Authorization: Bearer unaseriededigitoslargos
 
@@ -164,4 +164,3 @@ POST http://localhost:8765/users/delete/{{id}}.json
 
 
 En caso de duda me pueden escribir a mi correo webmaster@joserafael.com.ve o a mi cuenta en Twitter: @joserafael
-
